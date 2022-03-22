@@ -1,0 +1,11 @@
+main {
+  width: calc(100vw - 100px);
+  height: 100vh;
+  background-color: red;
+}
+
+aside {
+  width: 100px;
+  height: 100vh;
+  background-color: blue;
+}
