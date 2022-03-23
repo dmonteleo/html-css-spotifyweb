@@ -72,3 +72,12 @@ header {
   background-color: #141922;
 }
 
+header nav ul li {
+  display: inline-block;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
