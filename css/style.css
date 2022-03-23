@@ -55,6 +55,20 @@ section img {
   margin: -55px;
 }
 
+section .box {
+  /* padding-left: 10px; */
+}
+
+.cd {
+  flex-direction: column;
+  align-items: center;
+}
+
+.cd .title {
+  color: white;
+  font-weight: bold;
+}
+
 /* BANNER */
 
 banner {
