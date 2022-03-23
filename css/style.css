@@ -9,9 +9,31 @@ footer {
 /* ASIDE */
 
 aside {
-  width: 100px;
+  width: 200px;
   height: calc(100vh - 100px);
   background-color: #000000;
+}
+
+.logo {
+  height: 100px;
+  width: 100%;
+  padding: 10px 20px 10px 0px;
+}
+
+.logo img {
+  transform: scale(0.8);
+}
+
+.icon {
+  transform: scale(0.3);
+  margin: -30px -50px;
+}
+
+li {
+  padding-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* SECTION */
@@ -30,7 +52,7 @@ section div {
 
 section img {
   transform: scale(.5);
-  margin: -50px;
+  margin: -55px;
 }
 
 /* BANNER */

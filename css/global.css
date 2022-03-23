@@ -16,3 +16,7 @@ body {
 .flex {
   display: flex;
 }
+
+ul {
+  list-style: none;
+}
