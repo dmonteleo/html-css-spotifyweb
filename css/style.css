@@ -21,7 +21,11 @@ section {
   height: calc(100vh - 100px);
   background-color: yellow;
   overflow-y: auto;
+}
 
+section div {
+  width: 100%;
+  height: 100px;
 }
 
 header {
