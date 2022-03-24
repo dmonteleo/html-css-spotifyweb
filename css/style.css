@@ -171,9 +171,34 @@ footer {
 }
 
 .footer-left img {
-  height: 90px;
+  height: 70px;
+  width: 70px;
 }
 
+.footer-left .name {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-right: 70px;
+}
+
+.footer-left i {
+  margin-right: 20px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.footer-center {
+  display: flex;
+  flex-direction: column;
+}
 
 
 
