@@ -83,6 +83,10 @@ aside li {
   font-weight: bold;
 }
 
+aside li:hover {
+  color: white;
+}
+
 /* SECTION */
 
 section {
@@ -101,6 +105,15 @@ section div {
   padding-left: 20px;
 }
 
+.cd-section h1 {
+  margin-bottom: 15px;
+  font-weight:bolder;
+}
+
+.cd-section h4 {
+  margin-bottom: 30px;
+}
+
 .cd {
   width: 300px;
   display: flex;
@@ -109,14 +122,29 @@ section div {
 }
 
 .cd img {
-  height: 100%;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 20px;
 }
 
 .row {
   display: flex;
   flex-wrap: nowrap;
-  background-color: red;
-  margin-bottom: 30px;
+  margin-bottom: 200px;
+}
+
+.third-row .cd img {
+  border-radius: 50%;
+}
+
+.cd-section .cd span:first-of-type {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cd span {
+  text-align: center;
 }
 
 /* BANNER */
@@ -124,7 +152,9 @@ section div {
 banner {
   width: 100%;
   height: 100px;
-  background-color: #080b12;
+  /* background-color: #080b12; */
+  background-color: rgba(8, 11, 18, 0.5);
+
   position: fixed;
 }
 
@@ -135,7 +165,7 @@ banner button {
   border-radius: 50px;
   position: absolute; 
   top: 25px;
-  right: 270px;
+  right: 287px;
 }
 
 /* HEADER */
@@ -149,15 +179,41 @@ header {
 header nav ul li {
   display: inline-block;
   padding-right: 20px;
+  font-size: bold;
   /* display: flex;
   justify-content: center;
   align-items: flex-start; */
+}
+
+header nav ul li:hover {
+  color: white; 
 }
 
 header nav {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+#underlined {
+  border-bottom: 2px solid #adff2f;
+  padding-bottom: 2px;
+  position: relative;
+}
+
+.cover1 {
+  position: absolute;
+  width: 35px;
+  height: 4px;
+  background-color: #141922;
+}
+
+.cover2 {
+  position: absolute;
+  right:0;
+  width: 56px;
+  height: 4px;
+  background-color: #141922;
 }
 
 /* FOOTER */
