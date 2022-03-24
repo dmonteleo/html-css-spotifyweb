@@ -120,6 +120,22 @@ banner button {
   right: 270px;
 }
 
+.cd {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cd img {
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 /* HEADER */
 
 header {
