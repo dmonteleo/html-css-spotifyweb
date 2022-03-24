@@ -97,7 +97,9 @@ section div {
   height: 100px;
 }
 
-
+.cd-section {
+  padding-left: 20px;
+}
 
 /* BANNER */
 
